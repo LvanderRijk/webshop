@@ -1,0 +1,83 @@
+body{
+	background: rgb(0,42,227);
+	background: linear-gradient(90deg, rgba(0,42,227,1) 0%, rgba(157,0,195,1) 30%, rgba(214,0,19,1) 100%);
+}
+h1{
+	text-align: center;
+	color: black;
+	font-size: 40px;
+	border: solid 2px black;
+	margin-right: 600px;
+	margin-left: 600px;
+	border-radius: 10px;
+}
+p{
+	text-align: left;
+	margin-left:150px;
+	color: rgb(255, 161, 161);
+	font-size: 18px;
+}
+form{
+	text-align: left;
+	margin-left:150px;
+	color: rgb(255, 161, 161);
+	font-size: 18px;
+	
+}
+input[type=text]{
+	background: transparent;
+	border: 2px solid #b0b0b0;
+	border-radius: 8px;
+	color: white;
+	margin-bottom: 10px;
+}
+input[type=password]{
+	background: transparent;
+	border: 2px solid #b0b0b0;
+	border-radius: 8px;
+	color: white;
+	margin-bottom: 10px;
+}
+select{
+	background: transparent;
+	color: rgb(214, 146, 146);
+	margin-bottom: 10px;
+	border-radius: 8px;
+	border: 2px solid #b0b0b0;
+}
+input[type=radio]{
+	margin-bottom: 15px;
+}
+option{
+	color: black;
+}
+input[type=submit]:hover{
+	border: 2px solid #9c9c9c;
+	border-radius: 8px;
+	background-color:white;
+	color: rgb(214, 146, 146);
+	width: 100px;
+	height: 25px;
+}
+input[type=submit]{
+	border: 2px solid #b0b0b0;
+	border-radius: 8px;
+	background-color: transparent;
+	color: rgb(214, 146, 146);
+	width: 100px;
+	height: 25px;
+}
+::placeholder{
+	color: rgb(214, 146, 146);
+}
+.Echo{
+	margin-left:150px;
+	color: rgb(255, 161, 161);
+	font-size:18px;
+}
+.statement{
+	position:absolute;
+	margin-left:150px;
+	color: rgb(255, 161, 161);
+	font-size:18px;
+}
